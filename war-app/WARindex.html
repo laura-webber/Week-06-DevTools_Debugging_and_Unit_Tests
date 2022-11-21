@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🧨WAR</title>
+    <style>
+      img {
+        width: 80%;
+        display: flex;
+        margin:auto;
+      }
+      footer {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+     /* .rectangle {
+        height: 200px;
+        width: 150px;
+        background-color: rgb(167, 164, 164);
+        border-radius: 10px;
+        border: 1px solid black;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .rect1{
+        position:relative;
+        left:300px;
+        top: 10px;
+      }
+      .rect2 {
+        position:relative;
+        left:300px;
+        top:50px;
+      }
+      p{
+        font-size: 100px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+        justify-content: center;
+        text-align: center;
+        margin-top: 10px;
+        padding: 0;
+      } */
+
+      footer{
+        position: relative;
+        top: 100px;
+        bottom: 5px;
+      }
+      </style>
+      <link rel="stylesheet" href="node_modules/mocha/mocha.css" />
+
+  </head>
+  <body>
+    <div id="mocha">
+      <p><a href=".">Index</a></p>
+    </div>
+    <img src="images/WAR.png"/>
+
+    <div id="messages"></div>
+
+    <div id="fixtures"></div>
+
+    
+    <!-- <div class="rectangle rect1">&nbsp;Player 1<p id = "player1card" onclick="myFunction()"></p></div>
+    
+    <div class="rectangle rect2">&nbsp;Player 2<p id = "player2card"></p></div> -->
+
+    <script src="node_modules/mocha/mocha.js"></script>
+    <script src="node_modules/chai/chai.js"></script>
+    <script src="WARscript.js"></script>
+    <script>mocha.setup("bdd");</script>
+    <script src="index_test.js"></script>
+
+    <script>mocha.run();</script>
+  </body>
+
+  <footer>&nbsp;©️2022 Nereida Rondon</footer>
+</html>
