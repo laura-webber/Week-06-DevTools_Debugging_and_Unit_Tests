@@ -1,11 +1,9 @@
 class Card {
-
     constructor(suit, rank, value) { // will rank and value 1 through 13, suits 0 to 3
         this.suit = suit;
         this.rank = rank;
         this.value = value;
     }
-
 }
 
 
